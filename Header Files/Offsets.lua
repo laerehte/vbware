@@ -8,9 +8,8 @@ local offsets = {
 	STORAGE = game:GetService("ReplicatedStorage"),
 	GAME_VALUES = game:GetService("ReplicatedStorage"):WaitForChild("GameValues"),
 	HUMANOID = game:GetService("Players").LocalPlayer.Character:WaitForChild("Humanoid"),
-	
-	Speedhack = 0,
-	Speedkey = Enum.KeyCode.LeftControl,
+	CAMERA = workspace.CurrentCamera,
+	RUN = game:GetService("RunService"),
 	
 }
 
