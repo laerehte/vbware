@@ -16,7 +16,7 @@ local InfiniteStam = Groupbox1:CreateToggle("Infinite Stamina", function(state)
 	MainScripts.InfiniteStamina(state)
 end)
 
-local TiltChanger = Groupbox1:CreateSlider("Tilt Changer", Offsets.ROOT.Tilt.P, 50000, 0, function(value)
+local TiltChanger = Groupbox1:CreateSlider("Tilt Changer", 0, 50000, Offsets.ROOT.Tilt.P, function(value)
 	MainScripts.SetTilt(value)
 end)
 
