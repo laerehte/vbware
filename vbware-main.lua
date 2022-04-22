@@ -18,7 +18,6 @@ local TiltChanger = Groupbox1:CreateSlider("Tilt Changer", 3000, 10000, Offsets.
 	MainScripts.SetTilt(value)
 end)
 
-
 local StaminaRegen = Groupbox1:CreateSlider("Stamina Regen", 0, 100, 0, function(value)
 	MainScripts.StaminaRegen(value)
 end)
