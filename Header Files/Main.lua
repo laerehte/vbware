@@ -1,5 +1,5 @@
 local scripts = {}
-local Offsets = require(game:GetService("ServerScriptService").vbware["Header FIles"].Offsets)
+local Offsets = loadstring(game:HttpGet("https://raw.githubusercontent.com/laerehte/vbware/main/Header%20Files/Offsets.lua"))()
 
 -- Infinite Stamina
 scripts.InfiniteStamina = function(State)
