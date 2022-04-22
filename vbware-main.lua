@@ -1,6 +1,6 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/WetCheezit/Bracket-V2/main/src.lua"))()
-local Offsets = require(game:GetService("ServerScriptService").vbware["Header FIles"].Offsets)
-local MainScripts = require(game:GetService("ServerScriptService").vbware["Header FIles"].Main)
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/laerehte/vbware/main/Header%20Files/Library.lua"))()
+local Offsets = loadstring(game:HttpGet("https://raw.githubusercontent.com/laerehte/vbware/main/Header%20Files/Offsets.lua"))()
+local MainScripts = loadstring(game:HttpGet("https://raw.githubusercontent.com/laerehte/vbware/main/Header%20Files/Main.lua"))()
 
 -- Window
 local Window = Library:CreateWindow("vb-ware")
