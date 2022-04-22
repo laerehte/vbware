@@ -69,7 +69,7 @@ scripts.ViewAngles = function(State)
 		end
 
 		for i,v in next, Offsets.PLAYERS:GetPlayers() do
-			if v ~= Offsets.PLAYER and v.Team ~= Offsets.PLAYER.Team then
+			if v ~= Offsets.PLAYER and then
 				coroutine.wrap(drawLine)(v)
 			end
 		end
